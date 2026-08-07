@@ -14,6 +14,35 @@ I ship systems that stay maintainable — not demos that look good for a week.
 
 ---
 
+### Engineering Philosophy
+
+<p>
+  <img src="https://img.shields.io/badge/CPU--bound-DC2626?style=for-the-badge&logo=amd&logoColor=white" alt="CPU-bound" />
+  <img src="https://img.shields.io/badge/I%2FO--bound-2563EB?style=for-the-badge&logo=datadog&logoColor=white" alt="I/O-bound" />
+  <img src="https://img.shields.io/badge/Close%20to%20the%20metal-0F172A?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Close to the metal" />
+  <img src="https://img.shields.io/badge/Deadline%20aware-EA580C?style=for-the-badge&logo=clockify&logoColor=white" alt="Deadline aware" />
+  <img src="https://img.shields.io/badge/Stack%20fits%20the%20goal-059669?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Stack fits the goal" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Async%20I%2FO-1E40AF?style=flat-square&logo=fastapi&logoColor=white" alt="Async I/O" />
+  <img src="https://img.shields.io/badge/Workers%20%2F%20queues-37814A?style=flat-square&logo=celery&logoColor=white" alt="Workers / queues" />
+  <img src="https://img.shields.io/badge/No%20blocked%20hot%20path-991B1B?style=flat-square" alt="No blocked hot path" />
+  <img src="https://img.shields.io/badge/No%20overengineering-7C2D12?style=flat-square" alt="No overengineering" />
+  <img src="https://img.shields.io/badge/Product%20%3E%20ego-1E3A8A?style=flat-square" alt="Product over ego" />
+</p>
+
+I design against product goals, system physics, and real constraints — not framework loyalty.
+
+| Principle | How I decide |
+| --- | --- |
+| **CPU vs I/O** | Classify the workload first, then pick the optimized path — async I/O, workers, caching, or compute isolation |
+| **Close to the metal** | When the task allows and the deadline is not on fire, prefer the leaner, lower-level path for quality and performance |
+| **Deadline balance** | If time is critical — ship a reliable MVP without overengineering; refine toward the ideal path when the window opens |
+| **Stack = context** | Choose stack and libraries from the task, product goals, and constraints — never from personal bias |
+
+---
+
 ### Stack
 
 <p>
@@ -59,50 +88,39 @@ I ship systems that stay maintainable — not demos that look good for a week.
 
 ---
 
-### Moat
+
+### Automation Expertise
 
 <p>
-  <img src="https://img.shields.io/badge/Decision%20quality-1E3A8A?style=for-the-badge&logo=thoughtworks&logoColor=white" alt="Decision quality" />
-  <img src="https://img.shields.io/badge/TDD-111827?style=for-the-badge&logo=pytest&logoColor=white" alt="TDD" />
-  <img src="https://img.shields.io/badge/Docs%20as%20interface-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs as interface" />
-  <img src="https://img.shields.io/badge/Context%20over%20hype-7C2D12?style=for-the-badge&logo=dependabot&logoColor=white" alt="Context over hype" />
-</p>
-
-The stack is common. The delivery bar is not.
-
-- **Decision quality first** — I pressure-test alternatives and pick stack, libraries, and patterns from the task and its context — not from habit or hype
-- **TDD by default** — behavior is specified and locked before complexity compounds
-- **Documentation as interface** — OpenAPI, runbooks, and clear decisions so the product is operable without me in the room
-- **Founder-grade ownership** — product, API, workers, and deploys as one system, not three handoffs
-
----
-
-### Engineering Philosophy
-
-<p>
-  <img src="https://img.shields.io/badge/CPU--bound-DC2626?style=for-the-badge&logo=amd&logoColor=white" alt="CPU-bound" />
-  <img src="https://img.shields.io/badge/I%2FO--bound-2563EB?style=for-the-badge&logo=datadog&logoColor=white" alt="I/O-bound" />
-  <img src="https://img.shields.io/badge/Close%20to%20the%20metal-0F172A?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Close to the metal" />
-  <img src="https://img.shields.io/badge/Deadline%20aware-EA580C?style=for-the-badge&logo=clockify&logoColor=white" alt="Deadline aware" />
-  <img src="https://img.shields.io/badge/Stack%20fits%20the%20goal-059669?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Stack fits the goal" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
+  <img src="https://img.shields.io/badge/Chromium-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chromium" />
+  <img src="https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome" />
+  <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox" />
+  <img src="https://img.shields.io/badge/RPA-0F172A?style=for-the-badge&logo=automattic&logoColor=white" alt="RPA" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Async%20I%2FO-1E40AF?style=flat-square&logo=fastapi&logoColor=white" alt="Async I/O" />
-  <img src="https://img.shields.io/badge/Workers%20%2F%20queues-37814A?style=flat-square&logo=celery&logoColor=white" alt="Workers / queues" />
-  <img src="https://img.shields.io/badge/No%20blocked%20hot%20path-991B1B?style=flat-square" alt="No blocked hot path" />
-  <img src="https://img.shields.io/badge/No%20overengineering-7C2D12?style=flat-square" alt="No overengineering" />
-  <img src="https://img.shields.io/badge/Product%20%3E%20ego-1E3A8A?style=flat-square" alt="Product over ego" />
+  <img src="https://img.shields.io/badge/Browser%20extensions-5B21B6?style=flat-square&logo=googlechrome&logoColor=white" alt="Browser extensions" />
+  <img src="https://img.shields.io/badge/VPN%20%2F%20proxy%20when%20needed-1E3A8A?style=flat-square&logo=wireguard&logoColor=white" alt="VPN / proxy" />
+  <img src="https://img.shields.io/badge/Payment%20flows-059669?style=flat-square&logo=stripe&logoColor=white" alt="Payment flows" />
+  <img src="https://img.shields.io/badge/Excel%20%2F%20CSV-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel / CSV" />
+  <img src="https://img.shields.io/badge/Sensitive%20data%20aware-991B1B?style=flat-square&logo=letsencrypt&logoColor=white" alt="Sensitive data aware" />
+  <img src="https://img.shields.io/badge/Local%20product-111827?style=flat-square&logo=docker&logoColor=white" alt="Local product" />
 </p>
 
-I design against product goals, system physics, and real constraints — not framework loyalty.
+Shipped as a **local product**, not a pile of scripts — browser automation for real business workflows.
 
-| Principle | How I decide |
+| Focus | What I built |
 | --- | --- |
-| **CPU vs I/O** | Classify the workload first, then pick the optimized path — async I/O, workers, caching, or compute isolation |
-| **Close to the metal** | When the task allows and the deadline is not on fire, prefer the leaner, lower-level path for quality and performance |
-| **Deadline balance** | If time is critical — ship a reliable MVP without overengineering; refine toward the ideal path when the window opens |
-| **Stack = context** | Choose stack and libraries from the task, product goals, and constraints — never from personal bias |
+| **Browser control** | Deploy and drive Chromium, Chrome, and Firefox via **Playwright / Selenium** |
+| **Real-user emulation** | Install and configure browser extensions; bring up VPN/proxy when the network path requires it |
+| **Payment automation** | Automate payment-gateway interaction in controlled local flows |
+| **Data pipelines** | Parse, validate, and structure Excel/CSV tables for downstream use |
+| **Sensitive data** | Handle credentials and payment-adjacent data carefully — configs out of source, secrets in env, no plaintext passwords |
+
+Corporate framing only: web automation, RPA, analytics collection — no black-hat language.
+
 
 ---
 
@@ -139,6 +157,25 @@ No closed Linear boards. No fake velocity claims. Process exists to keep decisio
 
 ---
 
+
+### Moat
+
+<p>
+  <img src="https://img.shields.io/badge/Decision%20quality-1E3A8A?style=for-the-badge&logo=thoughtworks&logoColor=white" alt="Decision quality" />
+  <img src="https://img.shields.io/badge/TDD-111827?style=for-the-badge&logo=pytest&logoColor=white" alt="TDD" />
+  <img src="https://img.shields.io/badge/Docs%20as%20interface-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs as interface" />
+  <img src="https://img.shields.io/badge/Context%20over%20hype-7C2D12?style=for-the-badge&logo=dependabot&logoColor=white" alt="Context over hype" />
+</p>
+
+The stack is common. The delivery bar is not.
+
+- **Decision quality first** — I pressure-test alternatives and pick stack, libraries, and patterns from the task and its context — not from habit or hype
+- **TDD by default** — behavior is specified and locked before complexity compounds
+- **Documentation as interface** — OpenAPI, runbooks, and clear decisions so the product is operable without me in the room
+- **Founder-grade ownership** — product, API, workers, and deploys as one system, not three handoffs
+
+---
+
 ### Focus
 
 <p>
@@ -155,7 +192,6 @@ No closed Linear boards. No fake velocity claims. Process exists to keep decisio
 
 Pinned repositories carry the proof — problem, constraints, and the hard parts.
 
----
 ---
 
 ### Contact
