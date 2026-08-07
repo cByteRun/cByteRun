@@ -1,10 +1,12 @@
 # Hi — I'm cByteRun
 
-> Founder & fullstack engineer. I build **B2B SaaS** end-to-end: **Next.js** on the product surface, **Python / FastAPI** under the hood.
+> **Software Engineer · 5 years** — fault-tolerant automation, system optimization, and clear delivery workflow.  
+> Recent focus: **fullstack B2B SaaS** (~1.5y) with **Next.js / TypeScript**, **Python / FastAPI**, and **Docker**.
 
 I ship systems that stay maintainable — not demos that look good for a week.
 
 <p>
+  <img src="https://img.shields.io/badge/5%20years-0B0D0E?style=for-the-badge&logo=clockify&logoColor=white" alt="5 years" />
   <img src="https://img.shields.io/badge/Founder-0B0D0E?style=for-the-badge&logo=rocket&logoColor=white" alt="Founder" />
   <img src="https://img.shields.io/badge/Fullstack-111827?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Fullstack" />
   <img src="https://img.shields.io/badge/B2B%20SaaS-1D4ED8?style=for-the-badge&logo=cloud&logoColor=white" alt="B2B SaaS" />
@@ -88,39 +90,43 @@ I design against product goals, system physics, and real constraints — not fra
 
 ---
 
-
-### Automation Expertise
+### Automation & System Integration
 
 <p>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Chromium-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chromium" />
-  <img src="https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome" />
-  <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox" />
-  <img src="https://img.shields.io/badge/RPA-0F172A?style=for-the-badge&logo=automattic&logoColor=white" alt="RPA" />
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/Fault%20Tolerance-991B1B?style=for-the-badge&logo=statuspage&logoColor=white" alt="Fault Tolerance" />
+  <img src="https://img.shields.io/badge/Alerting-EA580C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Alerting" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Browser%20extensions-5B21B6?style=flat-square&logo=googlechrome&logoColor=white" alt="Browser extensions" />
-  <img src="https://img.shields.io/badge/VPN%20%2F%20proxy%20when%20needed-1E3A8A?style=flat-square&logo=wireguard&logoColor=white" alt="VPN / proxy" />
+  <img src="https://img.shields.io/badge/Chromium-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chromium" />
+  <img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome" />
+  <img src="https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Firefox" />
+  <img src="https://img.shields.io/badge/Extensions-5B21B6?style=flat-square&logo=googlechrome&logoColor=white" alt="Extensions" />
+  <img src="https://img.shields.io/badge/VPN%20%2F%20proxy-1E3A8A?style=flat-square&logo=wireguard&logoColor=white" alt="VPN / proxy" />
+  <img src="https://img.shields.io/badge/aiogram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="aiogram" />
+  <img src="https://img.shields.io/badge/Scheduler%2024%2F7-0F172A?style=flat-square&logo=googlecalendar&logoColor=white" alt="Scheduler 24/7" />
+  <img src="https://img.shields.io/badge/Network%20retries-64748B?style=flat-square&logo=cloudflare&logoColor=white" alt="Network retries" />
   <img src="https://img.shields.io/badge/Payment%20flows-059669?style=flat-square&logo=stripe&logoColor=white" alt="Payment flows" />
   <img src="https://img.shields.io/badge/Excel%20%2F%20CSV-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel / CSV" />
-  <img src="https://img.shields.io/badge/Sensitive%20data%20aware-991B1B?style=flat-square&logo=letsencrypt&logoColor=white" alt="Sensitive data aware" />
+  <img src="https://img.shields.io/badge/Sensitive%20data-991B1B?style=flat-square&logo=letsencrypt&logoColor=white" alt="Sensitive data" />
   <img src="https://img.shields.io/badge/Local%20product-111827?style=flat-square&logo=docker&logoColor=white" alt="Local product" />
 </p>
 
-Shipped as a **local product**, not a pile of scripts — browser automation for real business workflows.
+I design local and server-side automation that can run without babysitting — **autonomy and fault tolerance** as the quality bar.
 
 | Focus | What I built |
 | --- | --- |
-| **Browser control** | Deploy and drive Chromium, Chrome, and Firefox via **Playwright / Selenium** |
-| **Real-user emulation** | Install and configure browser extensions; bring up VPN/proxy when the network path requires it |
-| **Payment automation** | Automate payment-gateway interaction in controlled local flows |
-| **Data pipelines** | Parse, validate, and structure Excel/CSV tables for downstream use |
-| **Sensitive data** | Handle credentials and payment-adjacent data carefully — configs out of source, secrets in env, no plaintext passwords |
+| **Browser automation** | Deploy and drive Chromium, Chrome, and Firefox via **Playwright / Selenium**; install custom extensions; VPN/proxy when the network path requires it |
+| **Messenger integration** | **Telegram** bots (aiogram) and **WhatsApp Web** automation for notifications and business flows |
+| **Observability & alerting** | Runtime reports and logs pushed to Telegram — a practical **alerting system**, not silent failures |
+| **Fault tolerance** | Network retries, schedulers for **24/7** autonomous runs — software that survives blips without manual restart |
+| **Critical data** | Payment-gateway flows, sensitive-data handling (secrets in env), Excel/CSV parse → validate → structure |
 
-Corporate framing only: web automation, RPA, analytics collection — no black-hat language.
-
+Corporate framing: web automation, RPA, system integration — no black-hat language.
 
 ---
 
