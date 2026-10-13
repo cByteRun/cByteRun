@@ -206,7 +206,7 @@ Pinned repositories carry the proof — problem, constraints, and the hard parts
   <a href="https://github.com/CrazyFrogKiller">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB-%D1%82%D0%BA%D0%B0%D1%87%D0%B5%D0%B2-2b2970363/">
+  <a href="https://www.linkedin.com/in/daniil-tkachev-2b2970363">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://x.com/Den4kD77967">
